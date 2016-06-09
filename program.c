@@ -75,7 +75,7 @@ void showFBB(struct piecbajtow *fbb) {
         char l = fbb->bufor[i];
         printf("[%llu] %s\n", (unsigned long long) fbb->licz - 5 + i, bin(l));
     }
-    printf("\n\n\n;
+    printf("\n\n\n");
 }
 
 int main() {
